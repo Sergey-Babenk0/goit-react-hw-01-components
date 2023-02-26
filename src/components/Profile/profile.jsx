@@ -1,3 +1,5 @@
+import PropTypes, { shape } from 'prop-types';
+
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div>
@@ -24,4 +26,16 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </ul>
     </div>
   );
+};
+
+Profile.propTypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.number.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }),
 };
