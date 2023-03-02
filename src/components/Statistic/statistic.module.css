@@ -13,6 +13,7 @@
 }
 
 .title {
+  margin: 0 auto;
   text-align: center;
   padding: 23px;
   border-bottom: solid 1px blue;
@@ -20,7 +21,7 @@
 
 .list {
   display: flex;
-  /* justify-content: center; */
+  margin: 0 auto;
   width: 100%;
   padding: 0;
 }
@@ -28,15 +29,19 @@
 .element_stats {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  align-items: center;
   width: 100%;
 }
 
 .label {
+  margin: 0 auto;
   font-size: 18px;
+  text-align: center;
 }
 
 .percentage {
+  margin: 0 auto;
   font-size: 22px;
   margin-top: 5px;
+  text-align: center;
 }

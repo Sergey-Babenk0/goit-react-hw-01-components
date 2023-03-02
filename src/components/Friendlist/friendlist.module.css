@@ -16,10 +16,14 @@
   box-shadow: 2px 2px 10px grey;
 }
 
+.item {
+  display: flex;
+}
+
 .status {
   border-radius: 50%;
-  height: 10px;
-  width: 10px;
+  height: 20px;
+  width: 20px;
 }
 
 .true {
@@ -28,4 +32,14 @@
 
 .false {
   background-color: red;
+}
+
+.avatar {
+  margin-left: 10px;
+}
+
+.name {
+  margin-left: 30px;
+  font-size: 24px;
+  font-weight: 700;
 }
