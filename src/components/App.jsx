@@ -16,6 +16,7 @@ export const App = () => {
     //   justifyContent: 'center',
     //   alignItems: 'center',
     //   fontSize: 40,
+    // finall;)
     //   color: '#010101',}}
     >
       <Profile
